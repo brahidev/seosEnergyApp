@@ -2,6 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+  .bg-icon{
+    background-image:url('../public/icons/seos-512x512.png');
+    background-size: contain;
+  }
+  .name-company::after{
+    font-size: 36px;
+    color: #2A5368;
+    font-weight: 500;
+    content:"SEOS";
+    letter-spacing: 10px;
+  }
+  .input-blue{
+    background-color: #00A0BC;
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+    border-radius: 5px;
+    padding-left: 2.5rem;
+  }
+  .input-blue::placeholder{
+    color: #fff;
+  }
+  .btn-submit{
+    border: 1px solid #00A0BC;
+    color: #2A5368;
+    font-weight: 500;
+    font-size: 24px;
+    border-radius: 25px;
+  }
+}
+
 html,
 body {
   padding: 0;
