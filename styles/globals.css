@@ -20,15 +20,20 @@
     font-weight: 500;
     font-size: 24px;
     border-radius: 5px;
-    padding-left: 2.5rem;
   }
-  .input-blue::placeholder{
+  .input-blue svg{
+    margin-inline: 1rem;
+  }
+  .input-blue input{
+    width: 18rem;
+  }
+  .input-blue input::placeholder{
     color: #fff;
   }
   .btn-submit{
     border: 1px solid #00A0BC;
     color: #2A5368;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 24px;
     border-radius: 25px;
   }
