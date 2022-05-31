@@ -5,7 +5,8 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'blue-seos' : '#00A0BC'
+      'blue-seos' : '#00A0BC',
+      'blue-dark-seos' : '#114A64'      
     }
   },
   plugins: [],
