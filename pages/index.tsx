@@ -2,6 +2,8 @@ import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser, faKey } from '@fortawesome/free-solid-svg-icons'
 
+import Footer from '../components/Footer'
+
 const Login = () => (
     <>
         <div className="bg-icon w-[150px] h-[150px] mx-[auto] mt-[10vh]"></div>
@@ -20,6 +22,9 @@ const Login = () => (
                 <a className="text-center text-lg py-10 subTitle-seos"> ¿Olvidó su clave? </a>
             </Link>
         </form>
+        <Footer
+            textOne='Registrarse'
+        />
     </>
 )
 

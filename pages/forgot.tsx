@@ -21,7 +21,9 @@ const Forgot = () => (
                 <button className="btn-submit px-3 py-2">CANCEL</button>
             </div>
         </form>
-        <Footer />
+        <Footer
+            textOne='Registrarse'
+        />
     </>
 )
 

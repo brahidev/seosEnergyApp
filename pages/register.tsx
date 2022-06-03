@@ -25,7 +25,9 @@ const Register = () => (
             </div>
             <button className="btn-submit w-[15rem] mx-[auto] mt-10">CREAR CUENTA</button>
         </form>
-        <Footer />
+        <Footer 
+            textOne='Entrar'
+        />
     </>
 )
 
