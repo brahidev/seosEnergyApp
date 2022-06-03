@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser,faKey,faEnvelope,faMobileScreenButton, faCircleQuestion } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faKey, faEnvelope, faMobileScreenButton, faCircleQuestion } from '@fortawesome/free-solid-svg-icons'
 
 const Register = () => (
     <>
@@ -26,11 +26,11 @@ const Register = () => (
         </form>
         <section className="flex flex-row justify-between w-[100vw] fixed top-[95vh]">
             <a className="flex flex-row mx-[1rem]" href="#">
-                <FontAwesomeIcon className="w-[20px] mx-[0.5rem] text-blue-seos" icon={faUser}/>    
+                <FontAwesomeIcon className="w-[20px] mx-[0.5rem] text-blue-seos" icon={faUser as IconProp} />  
                 <span className="text-blue-dark-seos text-[1.2rem] font-bold">Entrar</span>
             </a>
             <a className="flex flex-row mx-[1rem]" href="#">
-                <FontAwesomeIcon className="w-[20px] mx-[0.5rem] text-blue-seos" icon={faCircleQuestion}/> 
+                <FontAwesomeIcon className="w-[20px] mx-[0.5rem] text-blue-seos" icon={faCircleQuestion as IconProp}/> 
                 <span className="text-blue-dark-seos text-[1.2rem] font-bold">Ayuda</span>
             </a>
         </section>
