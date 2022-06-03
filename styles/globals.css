@@ -37,6 +37,12 @@
     font-size: 24px;
     border-radius: 25px;
   }
+  .subTitle-seos {
+    color: #00A0BC
+  }
+  .boldColor-seos {
+    color: #0f2163
+  }
 }
 
 html,
