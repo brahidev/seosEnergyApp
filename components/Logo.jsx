@@ -4,6 +4,7 @@ const Logo = () => {
            <li className="first:text-yellow-400 "> First </li>
            <li> Second </li>
            <li className="last:text-red-700"> Three </li>
+           <li className="last:text-red-700"> Four </li>
        </ul>
     )
 }
