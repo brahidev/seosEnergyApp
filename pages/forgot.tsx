@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 import Footer from '../components/Footer'
 
@@ -16,8 +16,10 @@ const Forgot = () => (
                 <FontAwesomeIcon className="w-[20px]" icon={ faEnvelope }/>
                 <input type="email" className="bg-blue-seos focus:outline-none" placeholder="Correo"></input>
             </div>
-            <button className="btn-submit">ENVIAR</button>
-            <button className="btn-submit">CANCEL</button>
+            <div className="flex justify-around py-5">
+                <button className="btn-submit px-3 py-2">ENVIAR</button>
+                <button className="btn-submit px-3 py-2">CANCEL</button>
+            </div>
         </form>
         <Footer />
     </>

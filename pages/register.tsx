@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser, faKey, faEnvelope, faMobileScreenButton, faCircleQuestion } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faKey, faEnvelope, faMobileScreenButton } from '@fortawesome/free-solid-svg-icons'
 import Footer from '../components/Footer'
 
 const Register = () => (
