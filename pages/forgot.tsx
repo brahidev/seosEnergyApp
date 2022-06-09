@@ -16,15 +16,9 @@ const Forgot = () => (
                 <FontAwesomeIcon className="w-[20px]" icon={ faEnvelope }/>
                 <input type="email" className="bg-blue-seos focus:outline-none" placeholder="Correo"></input>
             </div>
-<<<<<<< HEAD
-            <div className="py-10 flex justify-around">
-                <button className="btn-submit px-3 py-1">ENVIAR</button>
-                <button className="btn-submit px-3 py-1">CANCEL</button>
-=======
-            <div className="flex justify-around py-5">
-                <button className="btn-submit px-3 py-2">ENVIAR</button>
+            <div className="flex justify-center py-5">
+                <button className="btn-submit px-3 py-2 mx-3">ENVIAR</button>
                 <button className="btn-submit px-3 py-2">CANCEL</button>
->>>>>>> main
             </div>
         </form>
         <Footer
