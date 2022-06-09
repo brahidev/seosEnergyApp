@@ -6,7 +6,10 @@ module.exports = {
   theme: {
     colors: {
       'blue-seos' : '#00A0BC',
-      'blue-dark-seos' : '#114A64'      
+      'blue-dark-seos' : '#114A64',
+      'black' : '#000',
+      'white' : '#fff',
+      'gray' : '#CDD3D6'
     }
   },
   plugins: [],
