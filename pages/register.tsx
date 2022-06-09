@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser, faKey, faEnvelope, faMobileScreenButton } from '@fortawesome/free-solid-svg-icons'
-
 import Footer from '../components/Footer'
 
 const Register = () => (
@@ -26,7 +25,9 @@ const Register = () => (
             </div>
             <button className="btn-submit w-[15rem] mx-[auto] mt-10">CREAR CUENTA</button>
         </form>
-        <Footer />
+        <Footer 
+            textOne='Entrar'
+        />
     </>
 )
 

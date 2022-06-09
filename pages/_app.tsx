@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import '../styles/globals.css'
 import { AppProps } from 'next/app'
-
+import { store } from '../redux/store'
+import { Provider } from 'react-redux'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -36,7 +37,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <link rel="apple-touch-icon" href="/apple-icon.png"></link>
         <meta name="theme-color" content="#F9F7F6" />
       </Head>
-      <Component {...pageProps} />
+      <Provider store={ store }>
+        <Component {...pageProps} />
+      </Provider>
     </>
   )
 }
