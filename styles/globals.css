@@ -6,6 +6,8 @@
   .bg-icon{
     background-image:url('../public/icons/seos-512x512.png');
     background-size: contain;
+    background-repeat:no-repeat;
+    background-position-x: center;
   }
   .name-company::after{
     font-size: 36px;
