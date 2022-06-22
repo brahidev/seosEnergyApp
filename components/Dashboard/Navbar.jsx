@@ -1,9 +1,11 @@
-import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
+import { useState } from 'react'
+
 function Navbar() {
-  const [navbarOpen, setNavbarOpen] = React.useState(false);
+  const [navbarOpen, setNavbarOpen] = useState(false);
+
   return (
     <>
       <nav className="relative flex flex-wrap items-center justify-between bg-white mb-3">
@@ -12,9 +14,9 @@ function Navbar() {
             <button
               className="text-blue-dark-seos cursor-pointer text-xl leading-none px-3 py-1 bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"
-              onClick={() => setNavbarOpen(!navbarOpen)}
+              onClick={ () => setNavbarOpen(!navbarOpen) }
             >
-            <FontAwesomeIcon className="w-[20px]" icon={faBars}/>
+            <FontAwesomeIcon className="w-[20px]" icon={ faBars }/>
             </button>
             <span
               className="text-sm font-bold leading-relaxed inline-block mx-[auto] py-2 whitespace-nowrap uppercase text-blue-dark-seos"
@@ -24,7 +26,7 @@ function Navbar() {
             <div className="bg-icon w-[30px] h-[30px] mx-[1rem]"></div>
           </div>
           <div
-            className={"lg:flex flex-grow items-center" +(navbarOpen ? "flex" : " hidden")}
+            className={"lg:flex flex-grow items-center" + ( navbarOpen ? "flex" : " hidden" )}
             id="example-navbar-danger"
           >
             <ul className="flex flex-col w-[100%] lg:flex-row list-none lg:ml-auto">
