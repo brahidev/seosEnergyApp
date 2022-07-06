@@ -17,6 +17,8 @@ const dashboard = () => {
                     position: fixed;
                     width: 100vw;
                     background-repeat: no-repeat;
+                    top: 40px;
+                    z-index:0;
                 }
             `}</style>
         </>
