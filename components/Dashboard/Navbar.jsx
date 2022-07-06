@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="relative flex flex-wrap items-center justify-between bg-white mb-3">
+      <nav className="relative flex flex-wrap items-center justify-between bg-white">
         <div className="container mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between items-center shadow lg:w-auto lg:static lg:block lg:justify-start">
             <button

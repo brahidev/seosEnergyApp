@@ -5,8 +5,20 @@ const dashboard = () => {
     return (
         <>
             <Navbar />
-            <h1> Dashboard </h1>
+            <div>
+                <h1> Dashboard </h1>
+            </div>
             <Sidebar />
+            <style jsx>{`
+                div {
+                    background-image: url(/fondo.jpg);
+                    background-size: cover;
+                    height: 100vh;
+                    position: fixed;
+                    width: 100vw;
+                    background-repeat: no-repeat;
+                }
+            `}</style>
         </>
     )
 }
