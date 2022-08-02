@@ -1,12 +1,13 @@
 import Navbar from "../components/Dashboard/Navbar"
 import Sidebar from '../components/Dashboard/Sidebar'
+import LineGraph from "../components/Dashboard/Graph/LineGraph"
 
 const dashboard = () => {
     return (
         <>
             <Navbar />
             <div>
-                <h1> Dashboard </h1>
+                <LineGraph />
             </div>
             <Sidebar />
             <style jsx>{`
